@@ -6,5 +6,5 @@ use super::second::Sibling;
 #[derive(FromBits)]
 pub struct Example {
     sibling: Sibling,
-    parent: u2,
+    field: u2,
 }
